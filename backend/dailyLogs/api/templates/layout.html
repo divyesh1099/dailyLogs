@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogEntry API</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 min-h-screen text-white">
+    <nav class="bg-gray-900 p-4">
+        <div class="container mx-auto">
+            <a href="/" class="text-white font-semibold text-lg">LogEntry API</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-8" style="min-height: 100vh;">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer class="bg-gray-900 p-4 mt-8">
+        <div class="container mx-auto text-center">
+            © 2024 LogEntry API. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
